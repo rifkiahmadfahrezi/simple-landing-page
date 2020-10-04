@@ -1,0 +1,98 @@
+/*mobile*/
+
+@media screen and (max-width: 688px){
+	body{
+		overflow-x: hidden;
+	}
+	div.main-container{
+		flex-direction: column;
+	}
+	div.main-container main{
+		padding: 50px 30px;
+	}
+	nav .nav-menu{
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 75%;
+		background-color: white;
+		margin-right: 0;
+		height: 100vh;
+		top: 60px;
+		bottom: 0;
+		transform: translateX(100%);
+		right: 0!important;
+		position: absolute;
+	}
+	nav .nav-menu li a{
+		padding: 10px 20px;
+	}
+	div.main-container main section#about-us{
+		width: 100%!important;
+		margin-bottom: 100px;
+	}
+
+
+	header video{
+		height: 85vh!important;
+	}
+	header .header-text .title{
+		font-size: 1.7em;
+	}
+	header .header-text .title span{
+		font-size: 1.5em;
+	}
+	header .box{
+		width: 350px!important;
+	}
+
+	header .box img{
+		width: 30px;
+	}
+	nav .nav-menu .contact{
+		display: inherit;
+	}
+	/*aside*/
+	aside{
+		margin: 0 30px 100px;
+		position: relative;
+	}
+	aside{
+		position: relative;
+
+	}
+
+	nav .menu-toggle{
+		display: inherit;
+	}
+
+	/*about us*/
+	div.main-container main section#about-us article{
+		width: 100%;
+	}
+
+	/*popular*/
+
+	div.main-container main section#popular .container{
+		justify-content: center;
+		width: 100%;
+	}
+
+	/*contact*/
+	section#contact form{
+		width: 100%!important;
+	}
+
+	footer{
+		margin-top: 50px;
+	}
+}
+
+
+/*tablet*/
+
+@media screen and (max-width: 992px){
+	nav .nav-menu{
+		width: 60%;
+	}
+}
